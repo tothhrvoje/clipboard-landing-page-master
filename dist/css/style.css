@@ -1,0 +1,564 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background {
+  background: url(/images/bg-header-mobile.png);
+  height: 32.1rem;
+  width: 37.5rem;
+  background-repeat: no-repeat;
+  margin-bottom: -0.6rem;
+}
+
+.logo {
+  position: absolute;
+  top: 14.5%;
+}
+
+.header_main_txt {
+  color: #4c545d;
+  font-size: 3.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header_txt {
+  color: #9fabb2;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-top: 1.7rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button_green {
+  background-color: #26baa4;
+  font-family: "Bai Jamjuree";
+  width: 31rem;
+  height: 5.5rem;
+  border-radius: 10rem;
+  border: none;
+  color: white;
+  font-size: 1.7rem;
+  margin-top: 5rem;
+  -webkit-box-shadow: inset 0px -2px 4px 0px #00000080, 0px 5px 20px 0px #26baa47a;
+          box-shadow: inset 0px -2px 4px 0px #00000080, 0px 5px 20px 0px #26baa47a;
+  outline: none;
+}
+
+.button_green:hover {
+  cursor: pointer;
+}
+
+.button_purple {
+  background-color: #6173ff;
+  font-family: "Bai Jamjuree";
+  width: 31rem;
+  height: 5.5rem;
+  border-radius: 10rem;
+  border: none;
+  color: white;
+  font-size: 1.7rem;
+  margin-top: 2.5rem;
+  -webkit-box-shadow: inset 0px -2px 4px 0px #00000080, 0px 5px 20px 0px #6173ff7d;
+          box-shadow: inset 0px -2px 4px 0px #00000080, 0px 5px 20px 0px #6173ff7d;
+  outline: none;
+}
+
+.button_purple:hover {
+  cursor: pointer;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16rem;
+}
+
+.feature_title {
+  color: #4c545d;
+  font-size: 2.9rem;
+  font-weight: 600;
+}
+
+.smaller_title {
+  font-size: 2.5rem;
+}
+
+.smaller_txt {
+  margin-bottom: 4.5rem;
+}
+
+.feature_txt {
+  color: #9fabb2;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-top: 1.7rem;
+  line-height: 2.5rem;
+}
+
+.computer_img {
+  background: url(/images/image-computer.png);
+  width: 31.2rem;
+  height: 25rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6.3rem;
+  margin-bottom: 4rem;
+}
+
+.whitespace {
+  margin-bottom: 13.5rem;
+}
+
+.devices_img {
+  background: url(/images/image-devices.png);
+  width: 34rem;
+  height: 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+.blacklists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon_blacklist {
+  width: 4.3rem;
+  height: 4.2rem;
+  margin-top: 8.5rem;
+  margin-bottom: 4.5rem;
+  background: url(/images/icon-blacklist.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.snippets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon_snippets {
+  background: url(/images/icon-text.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3.6rem;
+  height: 3.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon_preview {
+  background: url(/images/icon-preview.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 5.3rem;
+  height: 3.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.desk_br {
+  display: none;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8.5rem;
+}
+
+.google {
+  background: url(/images/logo-google.png);
+  width: 14.4rem;
+  height: 4.3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 6.5rem;
+}
+
+.ibm {
+  background: url(/images/logo-ibm.png);
+  width: 11.7rem;
+  height: 4.6rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 6.5rem;
+}
+
+.microsoft {
+  background: url(/images/logo-microsoft.png);
+  width: 13.8rem;
+  height: 3.1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 6.5rem;
+}
+
+.hp {
+  background: url(/images/logo-hp.png);
+  width: 11.7rem;
+  height: 4.8rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 6.5rem;
+}
+
+.vg {
+  background: url(/images/logo-vector-graphics.png);
+  width: 10.7rem;
+  height: 2.9rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.availability {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 17rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 37.5rem;
+  background: #9fabb2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fcfeff00), color-stop(0%, #9fabb240), to(#9fabb240));
+  background: linear-gradient(180deg, #fcfeff00 0%, #9fabb240 0%, #9fabb240 100%);
+  margin: 16.5rem auto;
+  padding-top: 5.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4c545d;
+  line-height: 5rem;
+  font-size: 1.8rem;
+}
+
+footer a:hover {
+  color: #26baa4;
+}
+
+.footer_logo {
+  background: url(/images/logo.svg);
+  position: relative;
+  top: 547%;
+  width: 5.6rem;
+  height: 5.6rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+}
+
+.socials {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.tweet {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 1440px) {
+  .background {
+    background: url(/images/bg-header-desktop.png);
+    height: 31rem;
+    width: 100%;
+    background-size: cover;
+  }
+  .header_main_txt {
+    font-size: 4.6rem;
+    padding-top: 0.8rem;
+  }
+  .header_txt {
+    padding-top: 1.7rem;
+    font-size: 2.13rem;
+    line-height: 3rem;
+  }
+  .header_main_txt br {
+    content: " ";
+  }
+  .break {
+    content: " ";
+  }
+  .buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2.5rem;
+  }
+  .buttons .button_green {
+    margin-top: 2.5rem;
+    width: 23rem;
+    height: 5.8rem;
+    font-size: 1.8rem;
+  }
+  .buttons .button_purple {
+    margin-top: 2.5rem;
+    width: 23rem;
+    height: 5.8rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+  }
+  .mobile_br {
+    display: none;
+  }
+  .desk_br {
+    display: inherit;
+  }
+  .computer_img {
+    width: 75rem;
+    height: 58rem;
+    position: relative;
+    right: 38rem;
+    top: 3rem;
+  }
+  .desk_title {
+    font-size: 3.8rem;
+  }
+  .desk_txt {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .desk_loc {
+    position: relative;
+    top: -56rem;
+    left: 30rem;
+    text-align: left;
+  }
+  .smaller_txt_desk {
+    line-height: 3rem;
+  }
+  .whitespace {
+    margin-bottom: -32.5rem;
+  }
+  .devices_img {
+    width: 86rem;
+    height: 77rem;
+    position: relative;
+    right: 3rem;
+    top: 3rem;
+    margin-bottom: -15rem;
+  }
+  .tools {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 5rem;
+    width: 120rem;
+  }
+  .tools .blacklists {
+    margin-top: -7.5rem;
+  }
+  .companies {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-left: 0rem;
+  }
+  .companies .google {
+    margin-right: 1rem;
+  }
+  .companies .ibm {
+    margin-right: -1rem;
+  }
+  .companies .microsoft {
+    padding-right: 12rem;
+  }
+  .companies .hp {
+    padding-right: 8rem;
+  }
+  .companies .vg {
+    padding-bottom: 9rem;
+  }
+  footer {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 10rem;
+  }
+  .footer_logo {
+    top: -5rem;
+  }
+  .links {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+    margin-left: -3rem;
+    margin-top: -13rem;
+  }
+  .first {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 9rem;
+    margin-right: 7rem;
+  }
+  .third {
+    padding-bottom: 5rem;
+  }
+  .socials {
+    margin-top: -8rem;
+    margin-left: 15rem;
+  }
+  .tweet {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

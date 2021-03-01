@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background {
+  background: url(/images/bg-header-mobile.png);
+  height: 32.1rem;
+  width: 37.5rem;
+  background-repeat: no-repeat;
+  margin-bottom: -0.6rem;
+}
+.logo {
+  position: absolute;
+  top: 14.5%;
+}
+
+.header_main_txt {
+  color: $darkGrayishBlue;
+  font-size: 3.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header_txt {
+  color: $grayishBlue;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-top: 1.7rem;
+  line-height: 2.5rem;
+  text-align: center;
+}

@@ -1,0 +1,97 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 16rem;
+}
+.feature_title {
+  color: $darkGrayishBlue;
+  font-size: 2.9rem;
+  font-weight: 600;
+}
+.smaller_title {
+  font-size: 2.5rem;
+}
+.smaller_txt {
+  margin-bottom: 4.5rem;
+}
+.feature_txt {
+  color: $grayishBlue;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-top: 1.7rem;
+  line-height: 2.5rem;
+}
+.computer_img {
+  background: url(/images/image-computer.png);
+  width: 31.2rem;
+  height: 25rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6.3rem;
+  margin-bottom: 4rem;
+}
+.whitespace {
+  margin-bottom: 13.5rem;
+}
+.devices_img {
+  background: url(/images/image-devices.png);
+  width: 34rem;
+  height: 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+.blacklists {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.icon_blacklist {
+  width: 4.3rem;
+  height: 4.2rem;
+  margin-top: 8.5rem;
+  margin-bottom: 4.5rem;
+  background: url(/images/icon-blacklist.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.snippets {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.icon_snippets {
+  background: url(/images/icon-text.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3.6rem;
+  height: 3.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.icon_preview {
+  background: url(/images/icon-preview.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 5.3rem;
+  height: 3.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+.desk_br {
+  display: none;
+}

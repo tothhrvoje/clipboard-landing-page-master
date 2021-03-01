@@ -1,0 +1,150 @@
+@media only screen and (min-width: 1440px) {
+  .background {
+    background: url(/images/bg-header-desktop.png);
+    height: 31rem;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .header_main_txt {
+    font-size: 4.6rem;
+    padding-top: 0.8rem;
+  }
+
+  .header_txt {
+    padding-top: 1.7rem;
+    font-size: 2.13rem;
+    line-height: 3rem;
+  }
+  .header_main_txt br {
+    content: " ";
+  }
+  .break {
+    content: " ";
+  }
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+    .button_green {
+      margin-top: 2.5rem;
+      width: 23rem;
+      height: 5.8rem;
+      font-size: 1.8rem;
+    }
+
+    .button_purple {
+      margin-top: 2.5rem;
+      width: 23rem;
+      height: 5.8rem;
+      margin-left: 2rem;
+      font-size: 1.8rem;
+    }
+  }
+  .mobile_br {
+    display: none;
+  }
+  .desk_br {
+    display: inherit;
+  }
+  .computer_img {
+    width: 75rem;
+    height: 58rem;
+    position: relative;
+    right: 38rem;
+    top: 3rem;
+  }
+  .desk_title {
+    font-size: 3.8rem;
+  }
+  .desk_txt {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .desk_loc {
+    position: relative;
+    top: -56rem;
+    left: 30rem;
+    text-align: left;
+  }
+  .smaller_txt_desk {
+    line-height: 3rem;
+  }
+  .whitespace {
+    margin-bottom: -32.5rem;
+  }
+  .devices_img {
+    width: 86rem;
+    height: 77rem;
+    position: relative;
+    right: 3rem;
+    top: 3rem;
+    margin-bottom: -15rem;
+  }
+  .tools {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    width: 120rem;
+
+    .blacklists {
+      margin-top: -7.5rem;
+    }
+  }
+  .companies {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-left: 0rem;
+    .google {
+      margin-right: 1rem;
+    }
+    .ibm {
+      margin-right: -1rem;
+    }
+    .microsoft {
+      padding-right: 12rem;
+    }
+    .hp {
+      padding-right: 8rem;
+    }
+    .vg {
+      padding-bottom: 9rem;
+    }
+  }
+  footer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+  }
+  .footer_logo {
+    top: -5rem;
+  }
+  .links {
+    flex-direction: row;
+    text-align: left;
+    margin-left: -3rem;
+    margin-top: -13rem;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .second {
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-right: 7rem;
+  }
+  .third {
+    padding-bottom: 5rem;
+  }
+  .socials {
+    margin-top: -8rem;
+    margin-left: 15rem;
+  }
+  .tweet {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

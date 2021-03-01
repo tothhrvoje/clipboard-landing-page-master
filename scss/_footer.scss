@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 37.5rem;
+  background: rgb(159, 171, 178);
+  background: linear-gradient(
+    180deg,
+    #fcfeff00 0%,
+    #9fabb240 0%,
+    #9fabb240 100%
+  );
+  margin: 16.5rem auto;
+  padding-top: 5.5rem;
+  a {
+    text-decoration: none;
+    color: $darkGrayishBlue;
+    line-height: 5rem;
+    font-size: 1.8rem;
+    &:hover {
+      color: $strongCyan;
+    }
+  }
+}
+.footer_logo {
+  background: url(/images/logo.svg);
+  position: relative;
+  top: 547%;
+  width: 5.6rem;
+  height: 5.6rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+}
+
+.socials {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.tweet {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
